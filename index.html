@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
@@ -59,11 +60,20 @@
             and with style.
           </p>
         </div>
-        <div class="hero-slider">
-          <img src="./images/slider-img-3.jpg" alt="barber does a haircut" width="1070" height="680"
-            class="hero-slider-img">
+        <div class="hero-slider swiper">
+          <div class="swiper-wrapper">
+            <img src="./images/slider-img-3.jpg" alt="barber does a haircut" width="1070" height="680"
+              class="hero-slider-img swiper-slide">
+            <img src="./images/slider-img-2.jpg" alt="barber does a haircut" width="1070" height="680"
+              class="hero-slider-img swiper-slide">
+            <img src="./images/slider-img-1.jpg" alt="barber does a haircut" width="1070" height="680"
+              class="hero-slider-img swiper-slide">
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev">Back</div>
+          <div class="swiper-button-next">Forward</div>
         </div>
-        <div class="hero-slider-overlay"></div>
+        <!-- <div class="hero-slider-overlay"></div> -->
       </div>
     </section>
     <!-- About -->
@@ -149,6 +159,8 @@
       <li><a href="#">Youtube</a></li>
     </ul>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/swiper.js"></script>
 </body>
 
 </html>
