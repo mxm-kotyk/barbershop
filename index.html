@@ -8,12 +8,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css">
+  <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+  <link rel="stylesheet" href="./css/main.min.css">
+
   <title>Barbershop</title>
 </head>
 
@@ -51,7 +53,7 @@
           </ul>
         </div>
         <div class="hero-content">
-          <p class="hero-upper-title upper-title">A hair salon for men in Kyiv</p>
+          <b class="hero-upper-title upper-title">A hair salon for men in Kyiv</b>
           <h1 class="hero-title">BarberShop</h1>
           <p class="hero-text">
             We are experts in trendy men’s haircuts.
@@ -73,7 +75,6 @@
           <div class="swiper-button-prev">Back</div>
           <div class="swiper-button-next">Forward</div>
         </div>
-        <!-- <div class="hero-slider-overlay"></div> -->
       </div>
     </section>
     <!-- About -->
@@ -89,7 +90,7 @@
           </li>
         </ul>
         <div class="about-text-wrap">
-          <p class="about-upper-title upper-title">About</p>
+          <b class="about-upper-title upper-title">About</b>
           <h2 class="about-title section-title">Best Barbershop in your city</h2>
           <p class="about-subtitle">If you want to add more confidence to your image, you should definitely visit us.
           </p>
@@ -104,7 +105,7 @@
     <!-- Pricind -->
     <section class="pricing section">
       <div class="container">
-        <p class="pricing-upper-title upper-title">Spend your time with the best masters</p>
+        <b class="pricing-upper-title upper-title">Spend your time with the best masters</b>
         <h2 class="pticing-title section-title">Services and prices</h2>
         <div class="pricing-wrap">
           <ul class="pricing-list">
@@ -147,17 +148,237 @@
         <button type="button" class="pricing-button button">online-booking</button>
       </div>
     </section>
+    <!-- Advantages -->
+    <section class="advantages section">
+      <div class="container">
+        <b class="upper-title">Old traditional school</b>
+        <h2 class="section-title">¿Why people come to us?</h2>
+        <p>Only good things are said about us. But it's better to see and feel 1 time than read 10 times.</p>
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <span class="stat-value">600</span>
+            <p class="stat">Satisfied customers per day</p>
+          </li>
+          <li class="advantages-item">
+            <span class="stat-value">50</span>
+            <p class="stat">Awards for excellent service</p>
+          </li>
+          <li class="advantages-item">
+            <span class="stat-value">20</span>
+            <p class="stat">Kyiv’s best barbers</p>
+          </li>
+          <li class="advantages-item">
+            <span class="stat-value">100</span>
+            <p class="stat">Gifts for regular customers</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="team section">
+      <div class="container">
+        <b class="upper-title">For true enjoyers of the atmosphere</b>
+        <h2 class="section-title">Our barbers</h2>
+        <ul class="team-list">
+          <li class="team-card">
+            <div class="team-card-wrapper">
+              <img src="./images/barber-john.jpg" alt="barber John Smith" width="450" class="team-member-image">
+              <h3 class="team-member-name">John Smith</h3>
+              <p class="team-member-position">Extreme Barber</p>
+              <ul class="team-socials-list">
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="team-card">
+            <div class="team-card-wrapper">
+              <img src="./images/barber-michele.jpg" alt="barber Michele Doe" width="450" class="team-member-image">
+              <h3 class="team-member-name">Michele Doe</h3>
+              <p class="team-member-position">Extreme Barber</p>
+              <ul class="team-socials-list">
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="team-card">
+            <div class="team-card-wrapper">
+              <img src="./images/barber-alan.jpg" alt="barber Alan Black" width="450" class="team-member-image">
+              <h3 class="team-member-name">Alan Black</h3>
+              <p class="team-member-position">Extreme Barber</p>
+              <ul class="team-socials-list">
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="team-socials-item">
+                  <a href="" class="team-socials-link">
+                    <svg class="team-socials-icon" width="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="gallery section">
+      <div class="container">
+        <b class="upper-title">In Latin, "barba" means "beard"</b>
+        <h2 class="section-title visually-hidden">Gallery</h2>
+        <ul class="gallery-list">
+          <li class="gallery-item"><img src="./images/gallery1.jpg" alt="barber at work" width="418"
+              class="gallery-image"></li>
+          <li class="gallery-item"><img src="./images/gallery2.jpg" alt="barber at work" width="418"
+              class="gallery-image"></li>
+          <li class="gallery-item"><img src="./images/gallery3.jpg" alt="barber at work" width="418"
+              class="gallery-image"></li>
+          <li class="gallery-item"><img src="./images/gallery4.jpg" alt="barber at work" width="418"
+              class="gallery-image"></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2 class="section-title visually-hidden">Online Booking and Contacts</h2>
+        <div class="booking-wrapper">
+          <form class="booking-form">
+            <h3 class="booking-title">Online-booking</h3>
+            <div class="booking-input-wrapper">
+              <label for="booking-name">Name*</label>
+              <input type="name" name="name" id="booking-name" placeholder=" " class="booking-name" required>
+            </div>
+            <div class="booking-input-wrapper">
+              <label for="booking-tel">Phone*</label>
+              <input type="tel" name="tel" id="booking-tel" placeholder=" " class="booking-tel" required>
+            </div>
+            <div class="booking-input-wrapper">
+              <label for="booking-message">Message</label>
+              <input type="text" name="message" id="booking-message" placeholder=" " class="booking-message">
+            </div>
+            <button type="submit" class="booking-button button">send</button>
+          </form>
+        </div>
+        <div class="contacts-wrapper">
+          <h3 class="contacts-title">Contacts</h3>
+          <ul class="footer-contacts-list">
+            <li class="footer-contacts-item">
+              <a href="https://goo.gl/maps/inG3dQPQSTNbNfYE7" rel="nofollow noreferrer noopener" target="_blank"
+                class="contacts-link">
+                <svg width="24" height="24" class="footer-contacts-icon">
+                  <use href="./images/icons.svg#icon-map-pin"></use>
+                </svg>
+                st. Vasilkovaya, 7A Kiev, 08132
+              </a>
+            </li>
+            <li class="footer-contacts-item">
+              <a href="tel:+380441111111" class="contacts-link">
+                <svg width="24" height="24" class="footer-contacts-icon">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                +38 044 111 11 11
+              </a>
+            </li>
+            <li class="footer-contacts-item">
+              <a href="mailto:barbershop@email.com" class="contacts-link">
+                <svg width="24" height="24" class="footer-contacts-icon">
+                  <use href="./images/icons.svg#icon-mail"></use>
+                </svg>
+                barbershop@email.com
+              </a>
+            </li>
+          </ul>
+          <b class="upper-title">Working hours</b>
+          <p class="hours-text">Every day from 9:00 to 22:00</p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>
-      <img src="/images/copiright.svg" alt="copiright" />
-      Copyright 2020
-    </p>
-    <ul>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">Youtube</a></li>
-    </ul>
+    <div class="container">
+      <span>
+        <svg width="12" height="12">
+          <use href="./images/icons.svg#icon-copiright"></use>
+        </svg>
+        Copyright 2020
+      </span>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Youtube</a></li>
+      </ul>
+    </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
   <script src="./js/swiper.js"></script>

@@ -1,0 +1,84 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* Main text color  #555555 */
+/* Secondary text color #9DA4BD */
+/* Main title color and background #FFFFFF */
+/* Secondary title and buttons, logo, upper title #303030 */
+/* Accent color #FF6C00 */
+/* Secondary background #191C26 */
+/* Prices background #111319 */
+/* Hero background overlay rgba(25, 28, 38, 0.2); */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 1.6666666667;
+  letter-spacing: 0.02em;
+  color: #555555;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  /* outline: 1px solid red; */
+}
+
+.section {
+  padding: 60px 0;
+}
+.section-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  line-height: 1.1666666667;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.upper-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.3636363636;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.button {
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

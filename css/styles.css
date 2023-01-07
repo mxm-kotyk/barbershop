@@ -19,16 +19,16 @@
 	--hero_overlay: rgba(25, 28, 38, 0.2);
 }
 
-body {
+/* body {
 	font-family: 'Open Sans';
 	font-size: 18px;
 	line-height: calc(30 / 18);
 	letter-spacing: 0.02em;
 	color: #555555;
 	background-color: var(--main_ttl_bg);
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -36,15 +36,15 @@ h5,
 h6,
 p {
 	margin: 0;
-}
+} */
 
-ul {
+/* ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -55,47 +55,47 @@ ul {
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
-}
+} */
 
-.link,
+/* .link,
 .logo-link {
 	font-style: normal;
 	text-decoration: none;
-}
+} */
 
-.container {
+/* .container {
 	width: 1200px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
-	/* outline: 1px solid red; */
-}
+} 
+*/
 
-.section {
+/* .section {
 	padding: 60px 0;
-}
+} */
 
-.section-title {
+/* .section-title {
 	font-family: var(--secondary_font);
 	font-size: 42px;
 	line-height: calc(49 / 42);
 	letter-spacing: 0.05em;
 	color: var(--secondary_ttl_btn);
-}
+} */
 
-.upper-title {
+/* .upper-title {
 	font-weight: 600;
 	font-size: 11px;
 	line-height: calc(15 / 11);
 	text-transform: uppercase;
 	color: var(--secondary_ttl_btn);
-}
+} */
 
-.button {
+/* .button {
 	border: 1px solid var(--accent);
 	border-radius: 25px;
 	cursor: pointer;
-}
+} */
 
 /* ------------Header------------ */
 
